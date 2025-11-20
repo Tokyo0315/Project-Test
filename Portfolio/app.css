@@ -1,0 +1,595 @@
+/* ----------------------------------------------------
+   GLOBAL
+---------------------------------------------------- */
+body {
+    background: rgb(244, 241, 232);
+    font-family: 'Permanent Marker', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+section,
+.container-fluid,
+.row {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+p {
+    font-family: "Indie Flower", cursive;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 2.75rem;
+}
+
+
+/* ----------------------------------------------------
+   NAVIGATION
+---------------------------------------------------- */
+#mainNavbar {
+    background: #556052;
+}
+
+.nav-link,
+.navbar-brand {
+    font-size: 1.75em;
+}
+
+.navbar-brand {
+    color: #FFAC41 !important;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: black !important;
+}
+
+
+/* ----------------------------------------------------
+   HEADINGS
+---------------------------------------------------- */
+#headingH1 {
+    font-family: "Titan One", sans-serif;
+    color: #F8B259;
+    font-weight: 500;
+    font-size: 10em;
+    padding-top: 3rem;
+}
+
+#headingGroup span {
+    color: #C75D2C;
+}
+
+#myName {
+    font-family: "Titan One", sans-serif;
+    color: #A2453D;
+    font-weight: 500;
+    font-size: 10em;
+}
+
+
+/* ----------------------------------------------------
+   SECTIONS BACKGROUND COLORS
+---------------------------------------------------- */
+#sec1 {
+    background: #F3E9DC;
+}
+
+#sec2 {
+    background: #E8DFCA;
+}
+
+#sec3 {
+    background: #D9C4B0;
+}
+
+#sec4 {
+    background: #CFAB8D;
+}
+
+
+/* ----------------------------------------------------
+   TYPEWRITER / TEXT EFFECTS
+---------------------------------------------------- */
+.typewriter h1 {
+    overflow: hidden;
+    border-right: 2px solid orange;
+    white-space: nowrap;
+    margin: 0 auto;
+    animation: typing 3.5s steps(7, end) forwards, blink-caret .5s step-end infinite;
+    width: 0;
+}
+
+.typewriter-container {
+    display: flex;
+    justify-content: center;
+}
+
+.line-1 {
+    color: #314E52;
+    font-family: "Indie Flower", cursive;
+    font-weight: bolder;
+    font-size: 5rem;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid #314E52;
+}
+
+.anim-typewriter {
+    animation: typewriter 3s steps(8) 1s infinite normal, blinkTextCursor 500ms step-end infinite;
+}
+
+
+/* ----------------------------------------------------
+   IMAGES
+---------------------------------------------------- */
+.grad-pic,
+.creative-pic {
+    display: block;
+    width: 700px;
+    height: auto;
+    border-radius: 20px;
+}
+
+/* ----------------------------------------------------
+   LAYOUT / BORDERS
+---------------------------------------------------- */
+.colknow {
+    padding-bottom: 20px;
+}
+
+.colwork {
+    padding-bottom: 20px;
+}
+
+.colexp {
+    border-right: solid 5px black;
+}
+
+.rowexp {
+    border-bottom: 5px solid black;
+    border-top: 5px solid black;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ----------------------------------------------------
+   EDUCATION TEXT
+---------------------------------------------------- */
+
+.comsci {
+    margin-top: 2em;
+    font-family: "Alan Sans", sans-serif;
+    font-weight: bold;
+    font-size: 3.5em;
+}
+
+.comsci span {
+    color: #C63C51;
+}
+
+.p1,
+.p2,
+.p3 {
+    text-align: justify;
+    margin: 1em 1em;
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.pdetail,
+.pdetailemail {
+    text-align: justify;
+    margin: 1em 1em;
+    font-size: 35px;
+    font-weight: 800;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+.pdetailcon {
+    text-align: justify;
+    margin: 1em 1em;
+    font-size: 40px;
+    font-weight: 700;
+    padding-left: 5em;
+    padding-right: 5em;
+    margin-bottom: none;
+}
+
+.contact-num p,
+.email p {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+
+/* ----------------------------------------------------
+   COLOR BOXES
+---------------------------------------------------- */
+.front {
+    background-color: #BED754;
+}
+
+.back {
+    background-color: #6D67E4;
+}
+
+.comscigrad {
+    background-color: #F05454;
+}
+
+.webdev {
+    background-color: #8FD6E1;
+}
+
+.collab {
+    background-color: #726A95;
+}
+
+.team {
+    background-color: #F4ABC4;
+}
+
+
+/* ----------------------------------------------------
+   SPAN TAG STYLES
+---------------------------------------------------- */
+.spanback,
+.spanexp,
+.spanproject,
+.spancontact {
+    border-radius: 6px;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border: solid 4px black;
+    margin: 0.5rem auto;
+}
+
+.spanback {
+    background-color: #697565;
+}
+
+.spanexp {
+    background-color: #8DBCC7;
+}
+
+.spanproject {
+    background-color: #9DDE8B;
+}
+
+.spancontact {
+    background-color: #C4DAD2;
+}
+
+
+/* ----------------------------------------------------
+   EDUCATION LABELS
+---------------------------------------------------- */
+.primary,
+.tertiary,
+.yeargrad,
+.year {
+    font-family: "Indie Flower", cursive;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.primary {
+    font-size: 2.5rem;
+}
+
+.tertiary {
+    font-size: 2.2rem;
+}
+
+.yeargrad {
+    font-size: 2.2rem;
+}
+
+.year {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
+/* ----------------------------------------------------
+   PROJECTS
+---------------------------------------------------- */
+.pr {
+    font-family: "Alan Sans", sans-serif;
+    font-weight: bold;
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+
+
+/* ----------------------------------------------------
+   CAROUSEL
+---------------------------------------------------- */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%);
+}
+
+
+/* ----------------------------------------------------
+   DETAILS & FOOTER
+---------------------------------------------------- */
+.knowme {
+    font-size: 4rem;
+    color: #1B262C;
+    text-shadow: 0 0 5px #537EC5,
+        0 0 10px #537EC5,
+        0 0 20px #537EC5,
+        0 0 40px #537EC5,
+        0 0 80px #537EC5;
+    animation: glow 2.5s infinite alternate;
+}
+
+.details {
+    margin-top: 10em;
+}
+
+.headdetails,
+.foot {
+    font-family: "Alan Sans", sans-serif;
+    font-weight: bold;
+}
+
+.map-responsive {
+    max-width: 500px;
+    /* width control */
+    height: 350px;
+    /* height control */
+    margin: 0 auto;
+    /* center */
+}
+
+.map-responsive iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+
+
+/* ----------------------------------------------------
+   ICONS
+---------------------------------------------------- */
+.fb-icon {
+    font-size: 3.5rem;
+    color: #3b5998;
+    padding-right: 1rem;
+}
+
+.istg-icon {
+    font-size: 3.5rem;
+    color: #C63C51;
+    padding-right: 1rem;
+}
+
+.mess-icon {
+    font-size: 3.5rem;
+    color: #537EC5;
+}
+
+
+/* ----------------------------------------------------
+   ANIMATIONS
+---------------------------------------------------- */
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 5px #537EC5, 0 0 10px #537EC5,
+            0 0 20px #537EC5, 0 0 40px #537EC5,
+            0 0 80px #537EC5;
+    }
+
+    50% {
+        text-shadow: 0 0 5px #293A80, 0 0 10px #293A80,
+            0 0 20px #293A80, 0 0 40px #293A80,
+            0 0 80px #293A80;
+    }
+
+    100% {
+        text-shadow: 0 0 10px #0F4C75, 0 0 20px #0F4C75,
+            0 0 40px #0F4C75, 0 0 80px #0F4C75,
+            0 0 160px #0F4C75;
+    }
+}
+
+@keyframes typewriter {
+    0% {
+        width: 0;
+    }
+
+    40%,
+    60% {
+        width: 9ch;
+    }
+
+    100% {
+        width: 0;
+    }
+}
+
+@keyframes blinkTextCursor {
+    from {
+        border-right-color: #314E52;
+    }
+
+    to {
+        border-right-color: transparent;
+    }
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 6ch;
+    }
+}
+
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent;
+    }
+
+    50% {
+        border-color: orange;
+    }
+}
+
+
+/* ----------------------------------------------------
+   MEDIA QUERIES
+---------------------------------------------------- */
+@media (max-width: 575px) {
+    #myName {
+        font-size: 6em;
+    }
+
+    #headingH1 {
+        font-size: 8em;
+    }
+
+    .p1,
+    .p2,
+    .p3 {
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .grad-pic,
+    .creative-pic {
+        padding-left: 0.5rem;
+    }
+
+    .spanback,
+    .spanexp,
+    .spanproject,
+    .spancontact {
+        font-size: 3.5rem;
+    }
+
+    .colexp {
+        border-right: none;
+    }
+
+    .pdetail {
+        text-align: justify;
+        margin: 1em 1em;
+        font-size: 20px;
+        font-weight: 800;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    .pdetailemail {
+        text-align: justify;
+        margin: 1em 1em;
+        font-size: 25px;
+        font-weight: 800;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    .intro-text {
+        font-size: 35px;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+    .details {
+        margin-top: 0.5em;
+    }
+}
+
+@media (max-width: 650px) {
+    #myName {
+        font-size: 4.5em;
+    }
+
+    #headingH1 {
+        font-size: 5em;
+    }
+
+    .spanback,
+    .spanexp,
+    .spanproject,
+    .spancontact {
+        font-size: 3rem;
+    }
+
+    .colexp {
+        border-right: none;
+    }
+
+    .pdetail {
+        text-align: justify;
+        margin: 1em 1em;
+        font-size: 20px;
+        font-weight: 800;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    .pdetailemail {
+        text-align: justify;
+        margin: 1em 1em;
+        font-size: 25px;
+        font-weight: 800;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    .intro-text {
+        font-size: 35px;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+    .details {
+        margin-top: 0.5em;
+    }
+}
+
+@media (max-width: 1300px) {
+    .grad-pic {
+        padding-left: 0.5rem;
+    }
+
+    .colexp {
+        border-right: none;
+    }
+
+    .pdetail {
+        text-align: justify;
+        margin: 1em 1em;
+        font-size: 20px;
+        font-weight: 800;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    .pdetailemail {
+        text-align: justify;
+        margin: 1em 1em;
+        font-size: 25px;
+        font-weight: 800;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    .details {
+        margin-top: 0.5em;
+    }
+}
